@@ -1,0 +1,14 @@
+package org.opentutorials.numberstring;
+
+public class CharString {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Chk"); // String
+		System.out.println("Charlesbrown k"); // String
+		System.out.println("Hello! I'm " + "Charlesbrown k"); // String
+		System.out.println("Charlesbrown k says \"Welcome to the Java World\""); // String in double quotation marks
+
+	}
+
+}
