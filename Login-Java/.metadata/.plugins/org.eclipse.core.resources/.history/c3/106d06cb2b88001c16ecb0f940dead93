@@ -1,0 +1,28 @@
+package GetInfo.Customers;
+
+public class Project1 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("----------------------");
+		System.out.println("Data Entry System"); 
+        System.out.println("----------------------\n");
+		while (true) {
+			System.out.println("Enter your First Name : "); // get users first name
+			String first_name = System.console().readLine();
+			
+			System.out.println("Enter your Last Name : "); // get users last name
+			String last_name = System.console().readLine();			
+			
+			System.out.println("This is the name that you entered : " + first_name + " " + last_name); // print inputted name
+			System.out.println("Is it Right? : ");
+			System.out.println("Answer must be \"Y\" or \"N\"!");
+			String result = System.console().readLine();
+			
+			if (result == "Y" || result == "y") {
+				continue;
+			}
+			
+		}
+
+	}

@@ -1,0 +1,40 @@
+package GetInfo.Customers;
+
+public class Project1 {
+
+	public static void main(String[] args) {
+		
+		String answer;
+		
+		System.out.println("---------------------------------");
+		System.out.println("Start of the Data Entry System"); 
+		System.out.println("---------------------------------\n\n");
+		for (int i = 1; i <= 5; i++) {			
+			if (i < 5) {
+				if (i > 1) {
+					System.out.println("Your attempts [" + i + "/5]"); // get users first name
+				}
+				
+				System.out.println("Enter your First Name : "); // get users first name
+				String first_name = System.console().readLine();
+				
+				System.out.println("\nEnter your Last Name : "); // get users last name
+				String last_name = System.console().readLine();			
+				
+				System.out.println("\nThis is the name that you entered : " + last_name + " " + first_name); // print inputted name
+				System.out.println("Is it Right?[\"y\" or \"n\"] : ");
+				answer = System.console().readLine();
+				
+				}
+			
+			if (answer == "y") {
+				break;
+			}
+		}
+		
+	System.out.println("\n\n---------------------------------");
+	System.out.println("End of the Data Entry System"); 
+	System.out.println("---------------------------------\n\n");
+	
+	}
+}
